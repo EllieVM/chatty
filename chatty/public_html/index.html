@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chatty</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="./client.js"></script>
+    </head>
+    <body onload="startChat()">
+        <div id="convoBox">
+        </div>
+        <div id="messageInput">
+            <label for="Alias">Alias</label>
+            <input type="text" id="Alias" name="Alias"><br>
+            <label for="Message">Message</label>
+            <input type="text" id="Message" name="Message"><br>
+            <input onclick="sendMessage()" type="submit" value="Send Message">
+        </div>
+    </body>
+</html>
